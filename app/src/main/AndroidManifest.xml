@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools">
+
+<uses-permission android:name="android.permission.VIBRATE" />
+<application
+    android:allowBackup="true"
+    android:dataExtractionRules="@xml/data_extraction_rules"
+    android:fullBackupContent="@xml/backup_rules"
+    android:icon="@drawable/downloaded"
+    android:label="@string/app_name"
+    android:roundIcon="@drawable/downloaded"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.HelloWorld"
+    tools:targetApi="31">
+
+    <activity
+        android:name="com.helloworld.SplashScreen"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="geo"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+        </intent-filter>
+    </activity>
+
+    <activity android:name="com.helloworld.ActivityHomepage" />
+    <activity android:name="com.helloworld.MainActivity" />
+    <activity android:name="com.helloworld.CountActivity" />
+    <activity android:name="com.helloworld.ScrollingActivity" />
+    <activity android:name="com.helloworld.FirstActivity" />
+    <activity android:name="com.helloworld.SecondActivity" />
+    <activity android:name="com.helloworld.AlarmActivity" />
+
+    <receiver android:name="com.helloworld.AlarmReceiver" />
+</application>
+</manifest>
