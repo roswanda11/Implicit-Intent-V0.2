@@ -19,3 +19,14 @@
     <td>Pemrograman Mobile</td>
   </tr>
 </table>
+
+# Instruksi Tugas
+
+Buatlah tampilan menu Versi 02 dari project-project yang sudah dibuat sebelumnya dengan tambahan memanggil method Maps dengan tampilan sebagai berikut:
+
+![ppppp](https://github.com/roswanda11/Implicit-Intent-V0.2/assets/115516632/1fa474ee-f3a3-415b-8148-4cc06a67373b)
+
+
+
+
+
